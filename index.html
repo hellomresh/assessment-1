@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studnet Registration Form</title>
+</head>
+<body>
+    <div><h1><b>Students Registration Form</b></h1></div>
+    <div>
+        <form>
+            <div style="padding: .5em;">
+                <label for="name", style="font-size: 1.5em;">Name: </label>
+                <input type="text", 
+                 id="name", placeholder="Enter your full name",
+                 required pattern="[A-Za-z\s]+"
+                  >
+            </div>
+            <div style="padding: .5em;">
+                <label for="email", style="font-size: 1.5em;border-radius: 5px;">Email: </label>
+                <input type="email", 
+                    id="email", 
+                    placeholder="Enter your email",
+                    required
+                >
+            </div>
+            <div style="padding: .5em;">
+                 <label for="age", style="font-size: 1.5em;border-radius: 5px", min="0">Age: </label>
+                 <input type="number", 
+                    id="age", placeholder="Enter", 
+                    required, 
+                    style="width: 68px;border-radius: 5px;font-size: 1.2em">
+            </div>
+            <div style="padding: .5em;">
+                <button type="submit" 
+                    style="padding: 10px 20px;
+                        font-weight: bold; 
+                        font-size: 14px;
+                        border-radius:5px;">Register
+                </button>
+            </div>
+        </form>
+    </div> 
+</body>
+</html>
